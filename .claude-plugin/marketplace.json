@@ -1,0 +1,19 @@
+{
+  "name": "iagodemacedo-mods",
+  "description": "Catálogo dos mods de Claude Code do Iago Macedo. Cada mod mora no próprio repositório.",
+  "owner": { "name": "Iago Macedo", "url": "https://github.com/iagodemacedo" },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": { "source": "github", "repo": "iagodemacedo/context-bar" },
+      "description": "Card acima do prompt com o uso da janela de contexto por categoria, limites de uso, custo da sessão e handoff com uma tecla",
+      "homepage": "https://github.com/iagodemacedo/context-bar"
+    },
+    {
+      "name": "query-pane",
+      "source": { "source": "github", "repo": "iagodemacedo/query-pane" },
+      "description": "Painel lateral com as queries do AWS Athena da sessão: dados escaneados, custo, alertas de query cara e sem partição, status da AWS e prévia do resultado",
+      "homepage": "https://github.com/iagodemacedo/query-pane"
+    }
+  ]
+}
